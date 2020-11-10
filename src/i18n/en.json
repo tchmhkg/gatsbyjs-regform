@@ -5,7 +5,7 @@
     "zh-cn":"简体",
     "ru":"русский",
     "kk":"қазақ тілі",
-    "Kazakhstan Distributor Registration":"Kazakhstan Distributor Registration",
+    "Registration":"Registration",
     "Individual":"Individual",
     "Personal Entrepreneurship":"Personal Entrepreneurship (PE)",
     "Member Registration":"Member Registration",
@@ -51,15 +51,13 @@
     "Female":"Female",
     "IIN":"IIN",
     "Registration Completed":"Registration completed.",
-    "registration_completed_message":"Welcome to join us! Your Infinitus distributor number will be sent via SMS later, please enter your distributor number and password to login our system to explore our brand new digital platform created especially for you!",
+    "registration_completed_message":"Welcome to join us! Your distributor number will be sent via SMS later, please enter your distributor number and password to login our system to explore our brand new digital platform created especially for you!",
     "registration_completed_message_2":"Please remember to enter bank information at <span class='highlight-text'>personal center > bank info</span>, thank you!",
     "Registration_copyright_footer_text":"Copyright © ${year} All rights reserved.",
     "tncLabels":[
         {"text": "By clicking this box and submitting this Member Application Form, you hereby acknowledge and agree that you have read and understood this application and that you willingly accept and agree to all "},
         {"text": "terms and conditions", "clickable": true, "key": "terms_and_conditions"},
-        {"text": " set out in this Member Application Form (collectively referred to as “these Terms and Conditions”) and the latest version of (1) “Infinitus Kazakhstan Marketing Plan”, (2) “Code of Practice for Distributors”, (3) “Confidentiality and Privacy Policy” and (4) “Return Policy for Distributors” (these latest versions of (1) to (4) are collectively referred to as “"},
-        {"text": "Business Manual", "clickable": true, "key": "business_manual"},
-        {"text": "”)."}
+        {"text": "."}
     ],
     "Terms and Conditions":"Terms and Conditions",
     "I am a Personal Entrepreneur":"I am a Personal Entrepreneur (\"PE\").",
