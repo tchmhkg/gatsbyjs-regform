@@ -7,7 +7,7 @@ const Header = () => {
         <div className="container">
             <div id="wrapper-official-navbar" className="clearfix">
                 <div className="navbar-header">
-                    <div className="logo" />
+                    {/* <div className="logo" /> */}
                 </div>
 
                 <div className="navbar-right">

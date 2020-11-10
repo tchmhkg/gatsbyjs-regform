@@ -1,5 +1,6 @@
 import React, { useState, useRef, memo } from 'react';
 import { useForm, FormContext } from "react-hook-form";
+import { Button } from "antd";
 
 import API  from '@aws-amplify/api';
 import Storage from '@aws-amplify/storage';
@@ -249,7 +250,7 @@ const Form = () => {
 
                     {/* Submit */}
                     <div className="action-group">
-                        <button id="btn-reg-review-info" type="submit" title="Submit" className="btn btn-theme">{translate('Submit')}</button>
+                        <Button id="btn-reg-review-info"  type="primary" htmlType="submit" title="Submit" className=" btn-theme">{translate('Submit')}</Button>
                     </div>
                 </form>
             </FormContext>

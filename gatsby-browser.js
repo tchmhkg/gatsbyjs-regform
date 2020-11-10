@@ -1,3 +1,4 @@
+import "antd/dist/antd.css";
 import "./src/styles/index.scss";
 import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/popper.min';

@@ -1,4 +1,5 @@
 import React, { forwardRef } from 'react';
+import { Input as AntInput } from 'antd';
 import Label from '@components/Form/Label';
 import WarningMsg from '@components/Form/WarningMsg';
 import Translate from '@components/Translate';
@@ -13,13 +14,13 @@ const Input = forwardRef(({label, id, name, title, inputClass = '', inputOptions
             {({translate}) => (
             <div>
                 {label ? <Label label={label} forId={id} required={required}/> : null}
-                <input
+                <AntInput
                     ref={ref}
                     type="text"
                     name={name}
                     title={title}
                     id={id}
-                    className={`form-control ${inputClass} ${hasError ? 'validation-failed' : ''}`}
+                    className={`${inputClass} ${hasError ? 'validation-failed' : ''}`}
                     autoComplete="off"
                     value={value}
                     onChange={onChange}
