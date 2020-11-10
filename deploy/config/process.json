@@ -1,0 +1,29 @@
+{
+    "apps": [{
+        "kube_common": {
+            "API_ENDPOINT_NAME":"register",
+            "API_ENDPOINT_URL":"https://nhnmwzd8w5.execute-api.ap-southeast-1.amazonaws.com/uat",
+            "AUTH_POOL_ID":"ap-southeast-1:dc4643a2-018b-4944-adcc-1d545c22ed46",
+            "STORAGE_BUCKET":"pos-sit-mm-upload-files",
+            "GTM_ID":"GTM-T3BG43M",
+            "UPLOAD_LIMIT":10
+        },
+        "kube_development": {
+            
+        },
+        "kube_uat": {
+            
+        },
+        "kube_staging": {
+            "API_ENDPOINT_URL":"https://bl14b2nci9.execute-api.ap-southeast-1.amazonaws.com/stag",
+            "AUTH_POOL_ID":"ap-southeast-1:61047068-5914-4bdc-88bd-ccff978d10c2",
+            "STORAGE_BUCKET":"pos-staging-mm-upload-files"
+        },
+        "kube_production": {
+            "API_ENDPOINT_URL":"https://ab9k853x4f.execute-api.ap-southeast-1.amazonaws.com/prod",
+            "AUTH_POOL_ID":"ap-southeast-1:52c1fc89-9185-4530-8b2a-de8e0bf41e05",
+            "STORAGE_BUCKET":"pos-prod-mm-upload-files",
+            "GTM_ID":"GTM-N2G4V8P"
+        }
+    }]
+}

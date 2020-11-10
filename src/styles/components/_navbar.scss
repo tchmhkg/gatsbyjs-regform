@@ -1,0 +1,96 @@
+.logo {
+  width: 100px;
+  height: 62px;
+  background-image: url(../images/pug-logo.png);
+  background-size: contain;
+  resize: both;
+  background-repeat: no-repeat;
+}
+
+/* navbar */
+.navbar {
+  padding: 0;
+  margin-bottom: 0;
+  &.navbar-theme {
+    border-bottom: 2px solid $theme-color-primary;
+    background-image: url(../images/paper_bg.jpg);
+  }
+  .navbar-header {
+    float: left;
+  }
+}
+
+#wrapper-official-navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  .navbar-brand {
+    line-height: 44px;
+    font-size: 24px;
+    font-family: "DroidSerif", $font-family;
+  }
+  #wrapper-navbar-lang-switch {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 44px;
+}
+
+#wrapper-navbar-lang-switch {
+  position: relative;
+  float: right;
+  .dropdown {
+    display: inline-block;
+  }
+}
+
+.dropdown-menu {
+  border: 2px solid $color-ultra-light-grey;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.dropdown-menu a > div {
+  //   cursor: pointer;
+  padding: 8px 20px;
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  font-size: 16px;
+  color: $color-black;
+  text-decoration: none !important;
+}
+
+.dropdown-menu > li:hover,
+.dropdown-menu > li:focus {
+  background-color: #e0e0e0;
+}
+
+.dropdown-menu > .active,
+.dropdown-menu > .active:hover,
+.dropdown-menu > .active:focus {
+  background-color: $theme-color-primary;
+}
+.dropdown-menu > .active > a {
+  color: $color-white;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 70px;
+    height: 48px;
+  }
+  #wrapper-official-navbar {
+    padding: 13px 0;
+    #wrapper-navbar-lang-switch {
+      margin-top: 15px;
+    }
+  }
+}

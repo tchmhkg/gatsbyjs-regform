@@ -1,0 +1,15 @@
+export default [
+    {label: 'Hong Kong', value: 'HK', code: '852'},
+    {label: 'Macau', value: 'MO', code: '853'},
+    {label: 'Malaysia', value: 'MY', code: '60'},
+    {label: 'Canada / United States', value: 'CA,US', code: '1'},
+    {label: 'Singapore', value: 'SG', code: '65'},
+    {label: 'Taiwan', value: 'TW', code: '886'},
+    {label: 'Mexico', value: 'MX', code: '52'},
+    {label: 'Thailand', value: 'TH', code: '66'},
+    {label: 'Korea', value: 'KR', code: '82'},
+    {label: 'Australia', value: 'AU', code: '61'},
+    {label: 'Philippines', value: 'PH', code: '63'},
+    {label: 'Kazakhstan', value: 'KZ', code: '7'},
+    {label: 'Others', value: 'OTHERS'},
+]

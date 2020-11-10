@@ -1,0 +1,61 @@
+{
+  "name": "regform",
+  "private": true,
+  "description": "Registration Form",
+  "version": "1.0.0",
+  "dependencies": {
+    "@aws-amplify/ui-react": "^0.2.8",
+    "aws-amplify": "^3.0.16",
+    "aws-amplify-react": "^4.1.15",
+    "bootstrap": "^4.5.0",
+    "crypto-js": "^4.0.0",
+    "gatsby": "^2.23.0",
+    "gatsby-image": "^2.4.6",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-create-client-paths": "^2.3.4",
+    "gatsby-plugin-google-tagmanager": "^2.3.11",
+    "gatsby-plugin-i18n": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.4.10",
+    "gatsby-plugin-offline": "^3.2.8",
+    "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-plugin-sass": "^2.3.3",
+    "gatsby-plugin-sharp": "^2.6.10",
+    "gatsby-source-filesystem": "^2.3.10",
+    "gatsby-transformer-sharp": "^2.5.4",
+    "graphql": "^15.1.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
+    "react-hook-form": "^5.7.2",
+    "react-modal": "^3.11.2",
+    "react-redux": "^7.2.0",
+    "react-signature-canvas": "^1.0.3",
+    "react-thunk": "^1.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "resolutions:": {
+    "graphql": "15.1.0"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "gen:uat": "namespace=uat ./archive/generateSecret.sh",
+    "gen:stag": "namespace=staging ./archive/generateSecret.sh",
+    "gen:prod": "namespace=production ./archive/generateSecret.sh",
+    "build:uat": "gatsby clean && GATSBY_ACTIVE_ENV=uat gatsby build",
+    "build:stag": "gatsby clean && GATSBY_ACTIVE_ENV=staging gatsby build",
+    "build:prod": "gatsby clean && GATSBY_ACTIVE_ENV=production gatsby build"
+  }
+}

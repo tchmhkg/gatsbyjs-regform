@@ -1,0 +1,70 @@
+body {
+  font-family: "Muli-Light", $font-family;
+  /* padding-top: 110px; */
+  color: $color-black;
+  font-size: 16px;
+  background-image: url(../images/paper_bg.jpg);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: $color-black;
+}
+
+label {
+  font-family: "Muli-Regular", $font-family;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  &.required {
+    &::after {
+      content: "*";
+      color: $color-red;
+      margin-left: 5px;
+    }
+  }
+}
+
+select.form-control:not([size]):not([multiple]) {
+  height: 40px;
+}
+
+.modal {
+  .modal-body {
+    height: 600px;
+    overflow: auto;
+    word-break: break-word;
+  }
+}
+
+.overlay-spinner {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(70, 70, 70, 0.8);
+  }
+}
+
+.react-modal {
+  height: 350px;
+}
+
+.react-modal-overlay {
+  background-color: #000;
+  opacity: 0.5;
+}
