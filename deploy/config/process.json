@@ -13,17 +13,6 @@
         },
         "kube_uat": {
             
-        },
-        "kube_staging": {
-            "API_ENDPOINT_URL":"https://bl14b2nci9.execute-api.ap-southeast-1.amazonaws.com/stag",
-            "AUTH_POOL_ID":"ap-southeast-1:61047068-5914-4bdc-88bd-ccff978d10c2",
-            "STORAGE_BUCKET":"pos-staging-mm-upload-files"
-        },
-        "kube_production": {
-            "API_ENDPOINT_URL":"https://ab9k853x4f.execute-api.ap-southeast-1.amazonaws.com/prod",
-            "AUTH_POOL_ID":"ap-southeast-1:52c1fc89-9185-4530-8b2a-de8e0bf41e05",
-            "STORAGE_BUCKET":"pos-prod-mm-upload-files",
-            "GTM_ID":"GTM-N2G4V8P"
         }
     }]
 }

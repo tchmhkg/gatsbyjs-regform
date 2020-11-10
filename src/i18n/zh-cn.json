@@ -5,7 +5,7 @@
     "zh-cn":"简体",
     "ru":"русский",
     "kk":"қазақ тілі",
-    "Kazakhstan Distributor Registration":"哈萨克斯坦经销商注册",
+    "Kazakhstan Distributor Registration":"注册",
     "Individual":"个人",
     "Personal Entrepreneurship":"单一个体户",
     "Member Registration":"会员注册",
@@ -57,9 +57,7 @@
     "tncLabels":[
         {"text": "点击此小方框并以电子方式提交此会员申请表，即表示您承诺并同意您已阅读并理解本申请，并且您愿意接受并同意本会员申请表所列的所有"},
         {"text": "条款和条件", "clickable": true, "key": "terms_and_conditions"},
-        {"text": "(以下统称为“条款和条件”)以及最新版本的(1) “无限极哈萨克斯坦市场计划” 、(2) “经销商守则” 、(3) “保密和私隐政策” 及 (4) 经销商退换货制度 (该最新版本的(1)至(4)以下统称为 “"},
-        {"text": "事业手册", "clickable": true, "key": "business_manual"},
-        {"text": "”)。"}
+        {"text": "。"}
     ],
     "Terms and Conditions":"条款和条件",
     "I am a Personal Entrepreneur":"我是单一个体户。",
