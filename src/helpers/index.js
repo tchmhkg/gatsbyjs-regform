@@ -1,6 +1,6 @@
 import md5 from 'crypto-js/md5';
 
-const IGI_DOMAIN = 'http://www.infinitus-igi.com';
+const IGI_DOMAIN = '';
 const KAZAKHSTAN = "KZ";
 const INDIVIDUAL = "IDV";
 // const FOREIGNER = "FORE";

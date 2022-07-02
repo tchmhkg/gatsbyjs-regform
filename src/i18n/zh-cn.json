@@ -51,7 +51,7 @@
     "Female":"女",
     "IIN":"个人识别号",
     "Registration Completed":"注册完成",
-    "registration_completed_message":"恭喜您成为无限极会员，您的会员编号将稍后经手机短信送出，在收到会员编号后，即可使用此会员编号和密码登入您的全新业务员网站。",
+    "registration_completed_message":"恭喜您成为会员，您的会员编号将稍后经手机短信送出，在收到会员编号后，即可使用此会员编号和密码登入您的全新业务员网站。",
     "registration_completed_message_2":"请在<span class='highlight-text'>「个人中心>银行户口」</span>输入银行资料，谢谢!",
     "Registration_copyright_footer_text":"Copyright © ${year} 版权所有",
     "tncLabels":[
